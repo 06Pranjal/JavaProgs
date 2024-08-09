@@ -1,3 +1,4 @@
+//Write a program for deleting the Kth element from a linear array.
 package JavaProgs;
 import java.io.*;
 public class deletion
@@ -5,7 +6,7 @@ public class deletion
     public static void main(String args[])throws IOException
     {
         BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
-        int arr[],size,pos,index,arr2[],arr3[];
+        int arr[],size,pos,index,arr2[];
         System.out.println("Enter the size of array");
         size=Integer.parseInt(in.readLine());
         arr=new int[size];
