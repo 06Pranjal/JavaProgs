@@ -3,14 +3,14 @@
 //You may assume that each input would have exactly one solution, and you may not use the same element twice.
 //
 //You can return the answer in any order.
-
+package JavaProgs;
 import java.io.*;
 class SumTarget
 {
     public static void main(String args[])throws IOException
     {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        int a[],target,size;
+        int a[],target,size,c=0;
         System.out.println("Enter the size of array");
         size = Integer.parseInt(in.readLine());
         a=new int[size];
@@ -23,16 +23,19 @@ class SumTarget
         target = Integer.parseInt(in.readLine());
         for (int i = 0; i < size; i++)
         {
-            for (int j=1;j<size;j++)
+            for (int j=i+1;j<size;j++)
             {
                 if(a[i]+a[j]==target)
                 {
                     System.out.println("The Numbers are:"+a[i]+" "+a[j]);
+                    c++;
 
                 }
 
             }
-            break;
+            if(c==1)
+                break;
+
         }
 
     }
