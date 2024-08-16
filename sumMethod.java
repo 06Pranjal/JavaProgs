@@ -2,8 +2,7 @@ package JavaProgs;
 
 public class sumMethod {
     int sum(int num1,int num2){
-        int sum3=num1+num2;
-        return sum3;
+        return (num1+num2);
     }
     public static void main(String args[])
     {
