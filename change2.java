@@ -1,5 +1,7 @@
 package JavaProgs;
 
+import com.sun.jdi.PathSearchingVirtualMachine;
+
 public class change2 {
     String name(String n)
     {
