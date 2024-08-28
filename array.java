@@ -16,7 +16,7 @@ class array
         {
             a[i]=Integer.parseInt(in.readLine());
         }
-        System.out.println("Enter 1 for printing the array ,2 for searching the element ,3 for insertion");
+        System.out.println("Enter 1 for printing the array ,2 for searching the element ,3 for insertion,4 for deletion");
         ch=Integer.parseInt(in.readLine());
 
 
@@ -89,6 +89,29 @@ class array
                 }
                 System.out.println();
                 break;
+            case 4:
+                // deletion
+                System.out.println("Enter the position of the element to be deleted (1 to " + n + "):");
+                int delPosition = Integer.parseInt(in.readLine());
+
+                if (delPosition < 1 || delPosition > n) {
+                    System.out.println("Invalid position!");
+                } else {
+                    delPosition--; // Convert to zero-based index
+                    for (int i = delPosition; i < n - 1; i++) {
+                        a[i] = a[i + 1];
+                    }
+                    n--; // Decrease the size of the array after deletion
+                }
+
+                // Printing the array after deletion
+                System.out.println("The array after deletion is:");
+                for (int i = 0; i < n; i++) {
+                    System.out.print(a[i] + " ");
+                }
+                System.out.println();
+                break;
+
             default:
                 System.out.println("invalid Choice");
         }
