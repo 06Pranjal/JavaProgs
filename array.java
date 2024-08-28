@@ -79,13 +79,13 @@ class array
                     }
 
                 }
-                a=b;
+
 
                 // Printing the array after insertion
                 System.out.println("The array after insertion is:");
                 for (int i = 0; i < n; i++)
                 {
-                    System.out.print(a[i] + " ");
+                    System.out.print(b[i] + " ");
                 }
                 System.out.println();
                 break;
