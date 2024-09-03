@@ -1,5 +1,5 @@
 //Write a program to copy the contents of array A in array B in reverse order. Also find sum of array A and array B and store the sum in array C.
-package JavaProgs;
+package JavaProgs.SelfProgs;
 import java.io.*;
 public class reverseArray
 {

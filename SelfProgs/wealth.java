@@ -1,4 +1,4 @@
-package JavaProgs;
+package JavaProgs.SelfProgs;
 
 class wealth {
     public int maximumWealth(int[][] accounts) {

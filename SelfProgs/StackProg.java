@@ -1,4 +1,4 @@
-package JavaProgs; // This should be the first line
+package JavaProgs.SelfProgs; // This should be the first line
 
 import java.io.*; // Followed by the import statements
 

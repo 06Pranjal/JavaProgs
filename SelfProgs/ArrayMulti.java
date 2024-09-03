@@ -1,4 +1,4 @@
-
+package JavaProgs.SelfProgs;
 //declare a 2d array of 4*4 and perform operation like search,traversal,sum of all elements ,insertions of elements at given location,deletion of a row
 import java.io.*;
 class ArrayMulti

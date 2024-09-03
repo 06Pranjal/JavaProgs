@@ -1,4 +1,4 @@
-package JavaProgs;
+package JavaProgs.SelfProgs;
 
 public class sumMethod {
     int sum(int num1,int num2){

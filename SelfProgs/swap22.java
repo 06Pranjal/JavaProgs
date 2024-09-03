@@ -1,4 +1,4 @@
-package JavaProgs;
+package JavaProgs.SelfProgs;
 
 public class swap22 {
     int aa;    //global variable

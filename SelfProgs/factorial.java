@@ -1,4 +1,4 @@
-package JavaProgs;
+package JavaProgs.SelfProgs;
 
 public class factorial {
     int value=1;

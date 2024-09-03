@@ -1,3 +1,5 @@
+package JavaProgs.SelfProgs;
+
 import java.io.*;
 class practical
 {

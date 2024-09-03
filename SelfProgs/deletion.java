@@ -1,5 +1,5 @@
 //Write a program for deleting the Kth element from a linear array.
-package JavaProgs;
+package JavaProgs.SelfProgs;
 import java.io.*;
 public class deletion
 {

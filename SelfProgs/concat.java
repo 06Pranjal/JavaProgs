@@ -1,4 +1,4 @@
-package JavaProgs;
+package JavaProgs.SelfProgs;
 import java.util.Arrays;
 
 class concat {
