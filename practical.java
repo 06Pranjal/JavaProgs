@@ -1,7 +1,7 @@
 import java.io.*;
 class practical
 {
-    static int a[],n,num,temp,ch,x;
+    static int a[],n,x;
     public static void main(String args[])throws IOException
     {
         BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
