@@ -22,7 +22,7 @@ class wealth {
         wealth ob = new wealth();
         int[][] accounts = {
                 {1, 2, 3},
-                {3, 2, 1}
+                {3, 4, 1}
         };
         System.out.println(ob.maximumWealth(accounts)); // Expected output: 6
     }
