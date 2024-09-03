@@ -1,4 +1,4 @@
-package JavaProgs;
+package JavaProgs.SelfProgs;
 public class Calculator {
 
     // Method to add two integers
