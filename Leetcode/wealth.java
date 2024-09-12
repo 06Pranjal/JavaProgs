@@ -1,4 +1,4 @@
-package JavaProgs.SelfProgs;
+package JavaProgs.Leetcode;
 
 class wealth {
     public int maximumWealth(int[][] accounts) {
