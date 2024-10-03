@@ -14,7 +14,8 @@ class Q171 {
     public static void main(String[] args) {
         Q171 solution = new Q171();
         System.out.println(solution.titleToNumber("ZY"));  // Output: 701
-        System.out.println(solution.titleToNumber("A"));   // Output: 1
+        System.out.println(solution.titleToNumber
+                ("A"));   // Output: 1
         System.out.println(solution.titleToNumber("AB"));  // Output: 28
     }
 }
