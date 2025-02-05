@@ -1,3 +1,5 @@
+package JavaProgs.SelfProgs;
+
 import java.io.*;
 class change {
     public static void main(String args[])throws IOException
