@@ -3,6 +3,7 @@ package JavaProgs.OOPs;
 public class streams2 {
     public static void main(String[] args) {
 
+        @FunctionalInterface //for good practice
         interface Mathoperation{
             int operate(int a,int b);
         }
