@@ -47,7 +47,7 @@ public class addLast {
         System.out.println("Linked List:");
         list.display(); // Output: 10 -> 20 -> 30 -> null
 
-        System.out.println("Size of Linked List: " + list.getSize());
+        System.out.print("Size of Linked List: " + list.getSize());
     }
 
 
