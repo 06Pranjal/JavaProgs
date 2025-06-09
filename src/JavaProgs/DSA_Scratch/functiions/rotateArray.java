@@ -9,7 +9,7 @@ public class rotateArray {
             temp[(i+k)%n]=a[i];
         }
         for(int i=0;i<n;i++){
-            System.out.print("  "+temp[i]+"   ");
+            System.out.print("..."+temp[i]+"...");
         }
 
     }
